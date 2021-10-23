@@ -1,4 +1,5 @@
 import Problem1 from './problem1.js'
+import Problem3 from './problem3.js'
 import readline from 'readline'
 
 const rl = readline.createInterface({
@@ -10,6 +11,9 @@ rl.question('Escolha um exercício para rodar: ', exercise => {
   switch (exercise) {
     case '1':
       run(Problem1);
+      break;
+      case '3':
+      run(Problem3);
       break;
     default:
       console.log('ERROR: Exercício não encontrado!');
