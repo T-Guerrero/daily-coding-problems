@@ -1,4 +1,5 @@
 import Problem1 from './problem1.js'
+import Problem2 from './problem2.js'
 import Problem3 from './problem3.js'
 import readline from 'readline'
 
@@ -11,6 +12,9 @@ rl.question('Escolha um exercício para rodar: ', exercise => {
   switch (exercise) {
     case '1':
       run(Problem1);
+      break;
+    case '2':
+      run(Problem2);
       break;
       case '3':
       run(Problem3);
