@@ -18,13 +18,13 @@ rl.question('Escolha um exercício para rodar: ', exercise => {
     case '2':
       run(Problem2);
       break;
-      case '3':
+    case '3':
       run(Problem3);
       break;
-      case '7':
+    case '7':
       run(Problem7);
       break;
-      case '9':
+    case '9':
       run(Problem9);
       break;
     default:
