@@ -4,6 +4,7 @@ import Problem3 from './problem3.js'
 import Problem7 from './problem7.js'
 import Problem9 from './problem9.js'
 import Problem29 from './problem29.js'
+import Problem49 from './problem49.js'
 
 import readline from 'readline'
 
@@ -29,8 +30,11 @@ rl.question('Escolha um exercício para rodar: ', exercise => {
     case '9':
       run(Problem9);
       break;
-      case '29':
+    case '29':
       run(Problem29);
+      break;
+    case '49':
+      run(Problem49);
       break;
     default:
       console.log('ERROR: Exercício não encontrado!');
