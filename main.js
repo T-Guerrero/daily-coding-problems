@@ -35,6 +35,9 @@ rl.question('Escolha um exercício para rodar: ', exercise => {
     case '57':
       run(Solver.Problem57);
       break;
+    case '12':
+      run(Solver.Problem12);
+      break;
     default:
       console.log('ERROR: Exercício não encontrado!');
       break;

@@ -6,3 +6,10 @@ export function equals(list1, list2) {
     return element == list2[i];
   })
 }
+
+export function factorial(n) {
+  let result = 1n;
+  for(let i = n; i > 1; i--) result *= BigInt(i);
+
+  return result;
+}
