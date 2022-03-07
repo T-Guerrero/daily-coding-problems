@@ -1,11 +1,4 @@
-import Problem1 from './problem1.js'
-import Problem2 from './problem2.js'
-import Problem3 from './problem3.js'
-import Problem7 from './problem7.js'
-import Problem9 from './problem9.js'
-import Problem29 from './problem29.js'
-import Problem49 from './problem49.js'
-
+import * as Solver from './imports.js';
 import readline from 'readline'
 
 const rl = readline.createInterface({
@@ -16,25 +9,31 @@ const rl = readline.createInterface({
 rl.question('Escolha um exercício para rodar: ', exercise => {
   switch (exercise) {
     case '1':
-      run(Problem1);
+      run(Solver.Problem1);
       break;
     case '2':
-      run(Problem2);
+      run(Solver.Problem2);
       break;
     case '3':
-      run(Problem3);
+      run(Solver.Problem3);
       break;
     case '7':
-      run(Problem7);
+      run(Solver.Problem7);
       break;
     case '9':
-      run(Problem9);
+      run(Solver.Problem9);
       break;
     case '29':
-      run(Problem29);
+      run(Solver.Problem29);
+      break;
+    case '43':
+      run(Solver.Problem43);
       break;
     case '49':
-      run(Problem49);
+      run(Solver.Problem49);
+      break;
+    case '57':
+      run(Solver.Problem57);
       break;
     default:
       console.log('ERROR: Exercício não encontrado!');
