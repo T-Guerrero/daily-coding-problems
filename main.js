@@ -38,6 +38,9 @@ rl.question('Escolha um exercício para rodar: ', exercise => {
 		case '57':
 			run(Solver.Problem57);
 			break;
+		case '58':
+			run(Solver.Problem58);
+			break;
 		case '65':
 			run(Solver.Problem65);
 			break;
