@@ -13,7 +13,7 @@ For example, given the string "the quick brown fox jumps over the lazy dog" and 
 you should return: ["the quick", "brown fox", "jumps over", "the lazy", "dog"].
 No string in the list has a length of more than 10.
 */
-export default class Problem49 {
+export default class Problem57 {
   static solve(text, k) {
     const words = text.split(' ');
     const output = [];
@@ -41,34 +41,34 @@ export default class Problem49 {
       const text = "the quick brown fox jumps over the lazy dog";
       const k = 10
       const solution = ["the quick", "brown fox", "jumps over", "the lazy", "dog"];
-      return equals(Problem49.solve(text, k), solution);
+      return equals(Problem57.solve(text, k), solution);
     },
     () => {
       const text = "you only know you've been high when you're feeling low";
       const k = 6
-      return Problem49.solve(text, k) == null;
+      return Problem57.solve(text, k) == null;
     },
     () => {
       const text = "you only know you've been high when you're feeling low";
       const k = 9
       const solution = ["you only", "know", "you've", "been high", "when", "you're", "feeling", "low"];
-      return equals(Problem49.solve(text, k), solution);
+      return equals(Problem57.solve(text, k), solution);
     },
     () => {
       const text = "";
       const k = 1;
       const solution = [""];
-      return equals(Problem49.solve(text, k), solution);
+      return equals(Problem57.solve(text, k), solution);
     },
     () => {
       const text = "thequickbrownfoxjumps overthelazydog";
       const k = 10;
-      return Problem49.solve(text, k) == null;
+      return Problem57.solve(text, k) == null;
     },
     () => {
       const text = "a, b, c, d";
       const k = 0;
-      return Problem49.solve(text, k) == null;
+      return Problem57.solve(text, k) == null;
     },
   ]
 }
