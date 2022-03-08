@@ -1,4 +1,4 @@
-import * as Solver from './imports.js';
+import * as Solver from './problems/main.js';
 import readline from 'readline';
 
 const rl = readline.createInterface({

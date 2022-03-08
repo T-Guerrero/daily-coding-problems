@@ -1,4 +1,7 @@
 /*
+[Easy]
+This problem was asked by Amazon.
+
 Implement a stack that has the following methods:
 
 push(val), which pushes an element onto the stack

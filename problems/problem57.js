@@ -1,5 +1,8 @@
 import { equals } from './utils.js';
 /*
+[Medium]
+This problem was asked by Amazon.
+
 Given a string s and an integer k, break up the string
 into multiple lines such that each line has a length of k or less.
 You must break it up so that words don't break across lines.

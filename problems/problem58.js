@@ -1,4 +1,7 @@
 /*
+[Medium]
+This problem was asked by Amazon.
+
 An sorted array of integers was rotated an unknown number of times.
 
 Given such an array, find the index of the element in the array in faster than linear time.
