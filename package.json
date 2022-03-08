@@ -7,6 +7,13 @@
   "author": "Thiago Guerrero <tgbalera@hotmail.com>",
   "license": "MIT",
   "scripts": {
-    "start": "node main.js"
+    "start": "node main.js",
+    "lint": "eslint . --fix"
+  },
+  "devDependencies": {
+    "eslint": "^8.10.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "prettier": "^2.5.1"
   }
 }
