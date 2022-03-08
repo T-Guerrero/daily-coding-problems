@@ -14,8 +14,7 @@ You can assume all the integers in the array are unique.
 export default class Problem58 {
 	static solve(list, element) {
 		let start = this.searchRotationPoint(list);
-		let half = Math.ceil(list.length / 2);
-		console.log(start);
+		let half = Math.floor(list.length / 2);
 		while (half > 0) {
 			const mid = (start + half) % list.length;
 			if (list[mid] == element) return mid;
